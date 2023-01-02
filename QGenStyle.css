@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #container {
+    display: grid;
+    column-gap: 100px;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  #other {
+    background-color: aqua;
+    grid-row: 1 / span 4;
+    grid-column: 2 / span 1;
+  }
