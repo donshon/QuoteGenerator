@@ -14,6 +14,12 @@
     border-radius: 15px;
   }
 
+  select {
+    margin: 30px;
+    height: 30px;
+    width: 120px;
+  }
+
   #h1{
     display: flex;
     justify-content: center;
@@ -29,10 +35,10 @@
 
   #qbox {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 300px;
-    background-color: blueviolet;
   }
 
   #qbox p {
@@ -43,10 +49,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blueviolet;
   }
 
   #other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: aqua;
     grid-row: 1 / span 5;
     grid-column: 2 / span 1;
