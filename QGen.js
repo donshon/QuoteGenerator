@@ -11,6 +11,7 @@ document.getElementById("getquote").addEventListener("click", getQuote);
 document.getElementById("tagButton").addEventListener("click", getTagQuote);
 document.getElementById("userQuote").addEventListener("click", userQuote);
 document.getElementById("clear").addEventListener("click", clearButton);
+document.getElementById("webDisplay").addEventListener("click", colorToggle);
 
 function getQuote() {
     let page = rng(100)+1;
@@ -57,4 +58,9 @@ function userQuote () {
 function clearButton () {
     document.querySelector("input").value = "";
     document.getElementById("yourQuote").innerText = "";
+}
+
+function colorToggle () {
+    let body = document.querySelector("body");
+    body.classList.toggle("lightMode");
 }

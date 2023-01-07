@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  body {
     background-color: black;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   button {
@@ -59,4 +62,9 @@
     background-color: aqua;
     grid-row: 1 / span 5;
     grid-column: 2 / span 1;
+  }
+
+  .lightMode {
+    background-color: white;
+    color: black;
   }
